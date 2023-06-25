@@ -31,6 +31,7 @@ Zur Vorbereitung eines Quizspiels soll ein Programm zum Erfassen von Fragen und 
 # Vorgaben:
 
 frage … ein nicht leerer Text, darf niemals null oder ein Leerstring sein (in der Vorlage schon so realisiert).
+
 • antworten … ein String-Array, je ein Feld für jede mögliche Antwort. Array-Größe = ANZAHL_ANTWORTEN. Hinweis: Wem die Variante mit einem Array unlösbar erscheint, kann als Notlösung auch zwei (oder drei) Attribute (antwort1, antwort2 … ) definieren – mit kleinem Punkteabzug. Das macht den Aufbau der GUI (Eingabefenster) jedoch unflexibler und erfodert dort mehr Code-Zeilen!
   
 • nummerRichtigeAntwort … ein Wert zwischen 1 und ANZAHL_ANTWORTEN. 1, wenn die erste Antwort die richtige ist, zwei falls es die zweite ist, … .
